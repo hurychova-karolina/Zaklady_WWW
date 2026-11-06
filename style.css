@@ -1,0 +1,161 @@
+
+/* 1. Celá stránka */
+body
+{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+
+    background-color: #EDEDED;
+    color: #333333;
+
+    font-family: Arial, sans-serif;
+}
+
+
+/* 2. Head */
+header
+{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+h1
+{
+    color: #FFB0D4;
+    font-size: 38px;
+}
+
+/* 3. Nadpisy */
+h2
+{
+    color: #E88AB5;
+    font-size: 24px;
+    border-bottom: 2px solid #FFB0D4;
+    padding-bottom: 8px;
+}
+
+
+/* 4. Nav */
+nav
+{
+    background-color: #f7C5DC;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+nav a
+{
+    display: inline-block;
+    margin: 5px;
+    padding: 12px 18px;
+
+    color: #333333;
+    background-color: whitesmoke;
+
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* Najetí myší */
+nav a:hover
+{
+    background-color: #E88AB5;
+    color: white;
+}
+
+
+/* 5. Main */
+main
+{
+    margin-top: 20px;
+}
+
+section
+{
+    background-color: whitesmoke;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+
+/* 6. Text */
+p
+{
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* 7. Galerie */
+figure
+{
+    display: inline-block;
+    width: 420px;
+    margin: 10px;
+    padding: 12px;
+
+    background-color: #F7DCE9;
+    border-radius: 12px;
+}
+
+img
+{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+figcaption
+{
+    margin-top: 8px;
+    color: #555555;
+    text-align: center;
+}
+
+
+/* 8. Tables */
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th
+{
+    background-color: #f7C5DC;
+    color: #333333;
+}
+
+th, td
+{
+    padding: 12px;
+    border: 1px solid #E5B4CA;
+    text-align: left;
+}
+
+
+/* 9. Odkazy */
+a
+{
+    color: #D77DA5;
+}
+
+
+/* 10. Footer */
+footer
+{
+    margin-top: 30px;
+    padding: 15px;
+
+    color: #333333;
+    background-color: #F7C5DC;
+    text-align: center;
+    border-radius: 10px;
+}
